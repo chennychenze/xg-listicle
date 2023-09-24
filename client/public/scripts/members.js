@@ -46,10 +46,14 @@ const renderMembers = async () => {
       link.style.fontSize = "16px";
     });
   } else {
-    /* here needs some attention */
+    const messageContainer = document.createElement("article");
     const message = document.createElement("h2");
-    message.textContent = "No members Available 😞";
-    mainContent.appendChild(message);
+    message.textContent = "XG has 7 members. No members found at this URL.";
+
+    messageContainer.appendChild(message);
+    messageContainer.style.textAlign = "center";
+
+    mainContent.appendChild(messageContainer);
   }
   mainContent.appendChild(grid);
 };

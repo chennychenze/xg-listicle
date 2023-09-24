@@ -48,9 +48,14 @@ const renderMember = async () => {
     name.style.paddingTop = "10px";
     paragraph.style.marginTop = "10px";
   } else {
+    const messageContainer = document.createElement("article");
     const message = document.createElement("h2");
-    message.textContent = "No members Available 😞";
-    memberContent.appendChild(message);
+    message.textContent = "XG has 7 members. No members found at this URL.";
+
+    messageContainer.appendChild(message);
+    messageContainer.style.textAlign = "center";
+
+    memberContent.appendChild(messageContainer);
   }
 };
 
