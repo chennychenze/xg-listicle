@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "client/public",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/client/public/(.*)",
+      "dest": "client/public/$1"
+    },
+    {
+      "src": "/public/scripts/(.*)",
+      "dest": "public/scripts/$1"
+    },
+    {
+      "src": "/members/(.*)",
+      "dest": "routes/members.js"
+    },
+    {
+      "src": "/data/(.*)",
+      "dest": "data/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ]
+}
