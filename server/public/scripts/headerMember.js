@@ -4,7 +4,7 @@ const heading = document.createElement("h1");
 heading.textContent = "XG stands for 'Xtraordinary Girls'.";
 
 const homeLink = document.createElement("a");
-homeLink.textContent = "Back to Home <";
+homeLink.textContent = "Back to All Members <";
 homeLink.setAttribute("role", "button");
 homeLink.setAttribute("class", "outline");
 homeLink.href = "/";

@@ -15,7 +15,7 @@ const renderMember = async () => {
 
     const image = document.createElement("img");
     image.src = `../images/${member.image}`;
-    image.style = "width: 25%";
+    image.style = "width: 40%";
 
     const name = document.createElement("h2");
     name.textContent = member.name + " (" + member.fullName + ")";
@@ -44,7 +44,9 @@ const renderMember = async () => {
     memberContent.appendChild(card);
 
     card.style.textAlign = "center";
-    card.style.padding = "16px";
+    card.style.paddingTop = "50px";
+    name.style.paddingTop = "10px";
+    paragraph.style.marginTop = "10px";
   } else {
     const message = document.createElement("h2");
     message.textContent = "No members Available 😞";
