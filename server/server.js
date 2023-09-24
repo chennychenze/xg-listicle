@@ -1,5 +1,5 @@
 import express from "express";
-import giftsRouter from "./routes/gifts.js";
+import membersRouter from "./routes/members.js";
 
 const app = express();
 
@@ -7,7 +7,7 @@ app.use("/public", express.static("./public"));
 
 app.use("/scripts", express.static("./public/scripts"));
 
-app.use("/gifts", giftsRouter);
+app.use("/members", membersRouter);
 
 app.get("/", (req, res) => {
   res

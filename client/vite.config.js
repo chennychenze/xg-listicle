@@ -7,7 +7,7 @@ export default defineConfig({
   },
   server: {
     proxy: {
-      "/gifts": {
+      "/member": {
         target: "http://localhost:3001",
       },
     },
