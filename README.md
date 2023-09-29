@@ -19,7 +19,7 @@ The following **required** functionality is completed:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
-![](https://github.com/chennychenze/xg-listicle/blob/main/walkthrough.gif)
+![](https://github.com/chennychenze/xg-listicle/blob/main/walkthrough-2.gif)
 
 ## Notes
 
