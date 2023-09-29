@@ -1,4 +1,5 @@
 import express from "express";
+import "./config/dotenv.js";
 import membersRouter from "./routes/members.js";
 
 const app = express();
