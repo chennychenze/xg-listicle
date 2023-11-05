@@ -1,24 +1,15 @@
-# WEB103 Project 2 - *XG Listicle*
-
-Submitted by: **Chenze Chen**
+# *XG Listicle*
 
 About this web app: **The "XG Listicle" web app offers detailed profiles, biographies, and high-quality images of the seven members of the XG girl group, providing fans with a comprehensive look into their backgrounds and careers.**
 
-Time spent: **2** hours
-
-## Required Features
-
-The following **required** functionality is completed:
+## Features
 
 <!-- Make sure to check off completed functionality below -->
-- [x] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
 - [x] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
 - [x] **The PostgreSQL database includes a table that matches the data displayed in the web app**
-  - [x] **NOTE: Your GIF or a screenshot added to the README must include a view of your Railway database that shows the contents of the table used by your app**
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
 ![](https://github.com/chennychenze/xg-listicle/blob/main/walkthrough-2.gif)
 
 ## Notes
